@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="head">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="head\gameUI">
+      <UniqueIdentifier>{6fad6690-b328-4db6-ba50-276bd6b03958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source\gameUI">
+      <UniqueIdentifier>{52c8648d-e321-49ff-8104-1f61885ae09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicengine.cpp">
+      <Filter>source\gameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>source\gameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="graphicengine.h">
+      <Filter>head\gameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>head\gameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>head</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

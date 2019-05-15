@@ -1,0 +1,7 @@
+﻿  main.cpp
+c:\users\liming\desktop\20180129\tetris\tetris\block.h(53): warning C4091: “typedef ”: 没有声明变量时忽略“block”的左侧
+c:\users\liming\desktop\20180129\tetris\tetris\main.cpp(310): warning C4101: “ps”: 未引用的局部变量
+c:\users\liming\desktop\20180129\tetris\tetris\main.cpp(346): warning C4101: “oldPen”: 未引用的局部变量
+c:\users\liming\desktop\20180129\tetris\tetris\main.cpp(345): warning C4101: “newPen”: 未引用的局部变量
+  tetris.vcxproj -> C:\Users\LiMing\Desktop\20180129\tetris\Debug\tetris.exe
+  tetris.vcxproj -> C:\Users\LiMing\Desktop\20180129\tetris\Debug\tetris.pdb (Full PDB)
